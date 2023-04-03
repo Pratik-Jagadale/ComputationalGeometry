@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\0 Program Data\12-ComputationalGeometry\Project\Project\Project\main.cpp(3,12): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Project.vcxproj -> D:\0 Program Data\12-ComputationalGeometry\Project\Project\x64\Debug\Project.exe
