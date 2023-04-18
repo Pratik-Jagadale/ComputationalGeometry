@@ -1,0 +1,6 @@
+https://github.com/kasunindikaliyanage/Jyamithika
+
+
+1.0 - Mastering Computational Geometry Algorithms with C++
+2.0 - Scientific Computing in C++
+
