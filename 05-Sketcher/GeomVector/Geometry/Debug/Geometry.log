@@ -1,0 +1,42 @@
+﻿  pch.cpp
+  Circle.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\GeomVector\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Curve.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\GeomVector\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\GeomVector\Curve.cpp(11,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\GeomVector\Curve.cpp(11,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Line.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\GeomVector\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Point.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\GeomVector\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\GeomVector\Point.cpp(14,18): warning C4244: 'argument': conversion from 'double' to 'coordinate_type', possible loss of data
+          with
+          [
+              coordinate_type=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\GeomVector\Point.cpp(15,18): warning C4244: 'argument': conversion from 'double' to 'coordinate_type', possible loss of data
+          with
+          [
+              coordinate_type=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\GeomVector\Point.cpp(16,18): warning C4244: 'argument': conversion from 'double' to 'coordinate_type', possible loss of data
+          with
+          [
+              coordinate_type=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\GeomVector\Point.cpp(26,23): warning C4244: 'argument': conversion from 'double' to 'coordinate_type', possible loss of data
+          with
+          [
+              coordinate_type=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\GeomVector\Point.cpp(37,19): warning C4244: 'argument': conversion from 'double' to 'coordinate_type', possible loss of data
+          with
+          [
+              coordinate_type=float
+          ]
+  Surface.cpp
+  Vector.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\GeomVector\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  dllmain.cpp
+  Generating Code...
+  Geometry.vcxproj -> C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\GeomVector\Debug\Geometry.dll
