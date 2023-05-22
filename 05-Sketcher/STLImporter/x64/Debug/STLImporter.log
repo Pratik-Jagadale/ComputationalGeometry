@@ -1,0 +1,38 @@
+﻿  pch.cpp
+  dllmain.cpp
+  STLImporter.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(42,28): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(43,28): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(44,28): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(55,28): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(56,28): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(57,28): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(92,9): warning C4101: 'a': unreferenced local variable
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(92,12): warning C4101: 'b': unreferenced local variable
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(92,15): warning C4101: 'c': unreferenced local variable
+  Generating Code...
+  STLImporter.vcxproj -> C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\x64\Debug\STLImporter.dll

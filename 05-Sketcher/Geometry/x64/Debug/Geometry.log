@@ -1,0 +1,46 @@
+﻿  Circle.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Circle.cpp(30,35): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Curve.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.cpp(11,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.cpp(11,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  dllmain.cpp
+  Line.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Line.cpp(28,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  pch.cpp
+  Point.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Point.cpp(14,18): warning C4244: 'argument': conversion from 'double' to 'coordinate_type', possible loss of data
+          with
+          [
+              coordinate_type=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Point.cpp(15,18): warning C4244: 'argument': conversion from 'double' to 'coordinate_type', possible loss of data
+          with
+          [
+              coordinate_type=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Point.cpp(16,18): warning C4244: 'argument': conversion from 'double' to 'coordinate_type', possible loss of data
+          with
+          [
+              coordinate_type=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Point.cpp(26,23): warning C4244: 'argument': conversion from 'double' to 'coordinate_type', possible loss of data
+          with
+          [
+              coordinate_type=float
+          ]
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Point.cpp(37,19): warning C4244: 'argument': conversion from 'double' to 'coordinate_type', possible loss of data
+          with
+          [
+              coordinate_type=float
+          ]
+  Surface.cpp
+  Vector.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Vector.h(218,1): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Vector.cpp(22): message : see reference to function template instantiation 'float dotProduct<float,3>(const Vector<float,3> &,const Vector<float,3> &)' being compiled
+  Generating Code...
+  Geometry.vcxproj -> C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\x64\Debug\Geometry.dll
