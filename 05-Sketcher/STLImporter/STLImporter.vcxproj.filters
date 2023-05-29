@@ -24,6 +24,9 @@
     <ClInclude Include="STLImporter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Geometry\Export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">

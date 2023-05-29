@@ -1,0 +1,5 @@
+﻿  HelloTriangle_1_1.cpp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'glew_static.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Temp\02_Study\ComputationalGeometry\04-OpenGL-Assignment\VinayakSirAssignment\DyanamicQuad\Lecture 4-Triangle\glew_static.pdb'; linking object as if no debug info
+  Part4-HelloTriangle_1_1.vcxproj -> C:\Temp\02_Study\ComputationalGeometry\04-OpenGL-Assignment\VinayakSirAssignment\DyanamicQuad\Lecture 4-Triangle\Part4-Hello Triangle_1_1.exe

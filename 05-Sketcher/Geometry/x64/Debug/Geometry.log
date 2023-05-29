@@ -1,10 +1,37 @@
-﻿  Circle.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Circle.cpp
 C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.h(10,16): warning C4251: 'Curve::curve': class 'std::vector<Point,std::allocator<Point>>' needs to have dll-interface to be used by clients of class 'Curve'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.h(10): message : see declaration of 'std::vector<Point,std::allocator<Point>>'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Circle.h(14,20): warning C4251: 'Circle::circleVertexData': class 'std::vector<double,std::allocator<double>>' needs to have dll-interface to be used by clients of class 'Circle'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.h(11): message : see declaration of 'std::vector<double,std::allocator<double>>'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Circle.cpp(5,1): warning C4273: 'Circle::Circle': inconsistent dll linkage
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Circle.h(15,5): message : see previous definition of '{ctor}'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Circle.cpp(24,1): warning C4273: 'Circle::getVertexData': inconsistent dll linkage
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Circle.h(16,20): message : see previous definition of 'getVertexData'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Circle.cpp(29,1): warning C4273: 'Circle::getVertexCount': inconsistent dll linkage
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Circle.h(17,9): message : see previous definition of 'getVertexCount'
 C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Circle.cpp(30,35): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Circle.cpp(34,1): warning C4273: 'Circle::~Circle': inconsistent dll linkage
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Circle.h(18,6): message : see previous definition of '{dtor}'
   Curve.cpp
 C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.h(10,16): warning C4251: 'Curve::curve': class 'std::vector<Point,std::allocator<Point>>' needs to have dll-interface to be used by clients of class 'Curve'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.h(10): message : see declaration of 'std::vector<Point,std::allocator<Point>>'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.cpp(5,1): warning C4273: 'Curve::Curve': inconsistent dll linkage
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.h(13,2): message : see previous definition of '{ctor}'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.cpp(10,1): warning C4273: 'Curve::Curve': inconsistent dll linkage
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.h(14,2): message : see previous definition of '{ctor}'
 C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.cpp(11,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
 C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.cpp(11,36): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.cpp(29,1): warning C4273: 'Curve::Curve': inconsistent dll linkage
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.h(16,2): message : see previous definition of '{ctor}'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.cpp(34,1): warning C4273: 'Curve::operator []': inconsistent dll linkage
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.h(15,8): message : see previous definition of '[]'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.cpp(39,1): warning C4273: 'Curve::push_back': inconsistent dll linkage
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.h(17,7): message : see previous definition of 'push_back'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.cpp(44,1): warning C4273: 'Curve::~Curve': inconsistent dll linkage
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Curve.h(18,3): message : see previous definition of '{dtor}'
   dllmain.cpp
   Line.cpp
 C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
@@ -37,10 +64,12 @@ C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Point.cpp(37,19): wa
           [
               coordinate_type=float
           ]
-  Surface.cpp
   Vector.cpp
 C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
 C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Vector.h(218,1): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
 C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Vector.cpp(22): message : see reference to function template instantiation 'float dotProduct<float,3>(const Vector<float,3> &,const Vector<float,3> &)' being compiled
   Generating Code...
-  Geometry.vcxproj -> C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\x64\Debug\Geometry.dll
+     Creating library C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\\bin\Geometry.lib and object C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\\bin\Geometry.exp
+LINK : warning LNK4217: symbol '??0Curve@@QEAA@XZ (public: __cdecl Curve::Curve(void))' defined in 'Curve.obj' is imported by 'Circle.obj' in function '"public: __cdecl Circle::Circle(class Point,int,int)" (??0Circle@@QEAA@VPoint@@HH@Z)'
+LINK : warning LNK4217: symbol '?push_back@Curve@@QEAAXVPoint@@@Z (public: void __cdecl Curve::push_back(class Point))' defined in 'Curve.obj' is imported by 'Circle.obj' in function '"public: __cdecl Circle::Circle(class Point,int,int)" (??0Circle@@QEAA@VPoint@@HH@Z)'
+  Geometry.vcxproj -> C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\bin\Geometry.dll

@@ -1,0 +1,4 @@
+D:/OpenGL/Triangle/common/includes/glm/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/OpenGL/Triangle/common/includes/glm/out/build/x64-Debug/CMakeFiles/glm_static.dir
+D:/OpenGL/Triangle/common/includes/glm/out/build/x64-Debug/CMakeFiles/glm_shared.dir
+D:/OpenGL/Triangle/common/includes/glm/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

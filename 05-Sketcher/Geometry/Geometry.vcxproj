@@ -78,6 +78,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -151,20 +152,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\GeomVector\Circle.h" />
-    <ClInclude Include="..\GeomVector\Common.h" />
-    <ClInclude Include="..\GeomVector\Cone.h" />
-    <ClInclude Include="..\GeomVector\Curve.h" />
-    <ClInclude Include="..\GeomVector\Cylinder.h" />
-    <ClInclude Include="..\GeomVector\IGeometry.h" />
-    <ClInclude Include="..\GeomVector\Line.h" />
-    <ClInclude Include="..\GeomVector\Matrix.h" />
-    <ClInclude Include="..\GeomVector\Point.h" />
-    <ClInclude Include="..\GeomVector\Sphere.h" />
-    <ClInclude Include="..\GeomVector\Surface.h" />
-    <ClInclude Include="..\GeomVector\Vector.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Curve.h" />
+    <ClInclude Include="Export.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="IGeometry.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="Matrix.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
@@ -173,7 +170,6 @@
     <ClCompile Include="Line.cpp" />
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="Point.cpp" />
-    <ClCompile Include="Surface.cpp" />
     <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

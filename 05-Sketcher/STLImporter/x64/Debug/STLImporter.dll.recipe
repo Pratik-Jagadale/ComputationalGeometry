@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\x64\Debug\STLImporter.dll</FullPath>
+      <FullPath>C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\$bin\STLImporter.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

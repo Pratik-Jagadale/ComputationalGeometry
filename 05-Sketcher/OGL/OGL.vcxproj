@@ -78,6 +78,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\ExternalDependecy;C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\ExternalDependecy\glew\include;$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -114,12 +116,15 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry;C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\ExternalDependecy\freetype-windows-binaries-master\include;C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\ExternalDependecy\glew\lib\Release\x64;C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\bin;C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\ExternalDependecy\freetype-windows-binaries-master\release dll\win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;Geometry.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -139,20 +144,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h" />
-    <ClInclude Include="OGL.h" />
-    <ClInclude Include="Resource.h" />
-    <ClInclude Include="targetver.h" />
+    <ClInclude Include="FontShader.h" />
+    <ClInclude Include="GLHeadersAndMacros.h" />
+    <ClInclude Include="GLLog.h" />
+    <ClInclude Include="GLShaders.h" />
+    <ClInclude Include="OGLMain.h" />
+    <ClInclude Include="UseMarbleShader.h" />
+    <ClInclude Include="UseSkyShader.h" />
+    <ClInclude Include="UseSunSurfaceShader.h" />
+    <ClInclude Include="UseWoodShader.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OGL.cpp" />
+    <ResourceCompile Include="OGLMain.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="OGL.rc" />
+    <Image Include="p_Logo.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="OGL.ico" />
-    <Image Include="small.ico" />
+    <ClCompile Include="GLLog.cpp" />
+    <ClCompile Include="GLShaders.cpp" />
+    <ClCompile Include="Noise.cpp" />
+    <ClCompile Include="OGLMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\cloud.vs" />
+    <None Include="Shaders\marble.fs" />
+    <None Include="Shaders\marble.vs" />
+    <None Include="Shaders\sunsurface.fs" />
+    <None Include="Shaders\sunsurface.vs" />
+    <None Include="Shaders\text.frag" />
+    <None Include="Shaders\text.vs" />
+    <None Include="Shaders\wood.fs" />
+    <None Include="Shaders\wood.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

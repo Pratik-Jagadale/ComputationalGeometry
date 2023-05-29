@@ -1,2 +1,10 @@
-﻿  OGL.cpp
-  OGL.vcxproj -> C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\x64\Debug\OGL.exe
+﻿  GLLog.cpp
+  GLShaders.cpp
+  Noise.cpp
+  OGLMain.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\OGL\vmath.h(996,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Vector.h(3,1): warning C4005: '_USE_MATH_DEFINES': macro redefinition
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\OGL\vmath.h(5): message : see previous definition of '_USE_MATH_DEFINES'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\Geometry\Common.h(56,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  OGL.vcxproj -> C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\OGL\x64\Debug\OGL.exe

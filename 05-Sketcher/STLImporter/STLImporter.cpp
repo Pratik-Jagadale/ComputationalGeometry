@@ -6,8 +6,7 @@ using namespace std;
 
 BOOL STLImporter::loadSTL(const char* fileName)
 {
-    STL stl;
-
+    
 	std::string line;
 	std::vector<std::string> lines;
 

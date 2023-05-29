@@ -5,7 +5,7 @@
 #include "Vector.h"
 #include <vector>
 
-class Circle
+class DllExport Circle
 {
 private:
     Curve* circle = NULL;

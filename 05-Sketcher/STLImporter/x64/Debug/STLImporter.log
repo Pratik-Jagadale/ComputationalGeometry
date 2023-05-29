@@ -1,6 +1,14 @@
-﻿  pch.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  pch.cpp
   dllmain.cpp
   STLImporter.cpp
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(8,1): warning C4273: 'STLImporter::loadSTL': inconsistent dll linkage
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.h(28,7): message : see previous definition of 'loadSTL'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(41,28): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
 C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(42,28): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
           with
           [
@@ -11,7 +19,7 @@ C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(4
           [
               _Ty=float
           ]
-C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(44,28): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(54,28): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
           with
           [
               _Ty=float
@@ -26,13 +34,10 @@ C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(5
           [
               _Ty=float
           ]
-C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(57,28): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=float
-          ]
-C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(92,9): warning C4101: 'a': unreferenced local variable
-C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(92,12): warning C4101: 'b': unreferenced local variable
-C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(92,15): warning C4101: 'c': unreferenced local variable
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(70,1): warning C4273: 'STLImporter::loadDFX': inconsistent dll linkage
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.h(29,7): message : see previous definition of 'loadDFX'
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(91,9): warning C4101: 'a': unreferenced local variable
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(91,12): warning C4101: 'b': unreferenced local variable
+C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\STLImporter\STLImporter.cpp(91,15): warning C4101: 'c': unreferenced local variable
   Generating Code...
-  STLImporter.vcxproj -> C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\x64\Debug\STLImporter.dll
+  STLImporter.vcxproj -> C:\Temp\02_Study\ComputationalGeometry\05-Sketcher\$bin\STLImporter.lib

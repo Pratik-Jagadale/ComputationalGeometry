@@ -21,48 +21,33 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\GeomVector\Circle.h">
+    <ClInclude Include="Curve.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\GeomVector\Common.h">
+    <ClInclude Include="Matrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\GeomVector\Cone.h">
+    <ClInclude Include="Export.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\GeomVector\Curve.h">
+    <ClInclude Include="Point.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\GeomVector\Cylinder.h">
+    <ClInclude Include="Vector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\GeomVector\IGeometry.h">
+    <ClInclude Include="Line.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\GeomVector\Line.h">
+    <ClInclude Include="Circle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\GeomVector\Matrix.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\GeomVector\Point.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\GeomVector\Sphere.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\GeomVector\Surface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\GeomVector\Vector.h">
+    <ClInclude Include="IGeometry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Circle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Curve.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="dllmain.cpp">
@@ -77,10 +62,10 @@
     <ClCompile Include="Point.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Surface.cpp">
+    <ClCompile Include="Vector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Vector.cpp">
+    <ClCompile Include="Curve.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

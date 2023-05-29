@@ -2,8 +2,9 @@
 
 #include "Point.h"
 #include <vector>
+#include "Export.h"
 
-class Curve {
+class DllExport Curve {
 
 private:
 	vector<Point> curve;

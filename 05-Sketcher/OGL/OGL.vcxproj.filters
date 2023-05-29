@@ -13,37 +13,93 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{d9cd328e-f3b6-4cdb-9e31-b38a6812de87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{a4afe6af-d295-4380-879b-f032a5154061}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
+    <ClInclude Include="OGLMain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
+    <ClInclude Include="GLHeadersAndMacros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Resource.h">
+    <ClInclude Include="GLLog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OGL.h">
+    <ClInclude Include="GLShaders.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UseMarbleShader.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="UseSkyShader.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="UseSunSurfaceShader.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="UseWoodShader.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="FontShader.h">
+      <Filter>Effects</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OGL.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="OGL.rc">
+    <ResourceCompile Include="OGLMain.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="small.ico">
+    <Image Include="p_Logo.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="OGL.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OGLMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Noise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\cloud.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\marble.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\marble.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\sunsurface.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\sunsurface.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\wood.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\wood.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\text.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\text.frag">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>
